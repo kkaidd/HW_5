@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class GitHubEnterprisePageLoadTest {
     @Test
 
-    public void foundEnterprisePage() {
+    public void foundEnterprisePageTests() {
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
 
